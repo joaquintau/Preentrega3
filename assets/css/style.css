@@ -91,6 +91,10 @@ display:flex;
     .sectionIndex{
         row-gap: 2rem;
     }
+    .cabecera{
+        display: flex;
+        flex-direction: row-reverse;
+    }
 }
 
 @media (max-width: 768px){
