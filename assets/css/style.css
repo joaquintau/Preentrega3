@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.cuerpo{
+    background-color: #e7dfb8;
+}
+.cabecera {
+    background-color: #eb7a8d;
+}
+div a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: "Varela Round", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.logo{
+    width: 8%;
+    position: relative;
+    left: 16vh;
+}
+h1{
+    font-family: "IBM Plex Mono", serif;
+    font-weight: 700;
+    font-style:italic;
+    font-size: 200%;
+}
+h2{
+    font-family: "IBM Plex Mono", serif;
+    font-weight: 600;
+    font-style:italic;
+    font-size: 150%;
+}
+p{
+    font-family: "Varela Round", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+h3{
+    font-family: "IBM Plex Mono", serif;
+    font-weight: 600;
+    font-style:italic;
+}
+.imagenIndex{
+    width: 500px;
+}
+footer{
+    background-color: #7295B4;
+}
+.redes{
+    width: 5.5vh;
+}
+.sitiosTuristicos{
+    background-color: #f3e9bd;
+    width: 50%;
+}
+li{
+    font-family: "Varela Round", serif;
+    font-weight: 400;
+    font-style: normal; 
+}
+.sitiosOtakus{
+    width: 600px;
+    height: 25rem;
+}
+.mapa{
+    position: absolute;
+    top: 50vh;
+}
+.fotoTokyo{
+    height: 58%;
+}
+.menu{
+    height: 100vh;
+    display: flex;
+    width: 31vh;
+    position:relative;
+}
+.itemComida{
+display:flex;
+}
+@media (max-width: 576px){
+    .logo{
+        width: 15%;
+        position: relative;
+        bottom: 75px;
+        left: 0px;
+    }
+    .sectionIndex{
+        row-gap: 2rem;
+    }
+}
+
+@media (max-width: 768px){
+    .logo{
+        width: 15%;
+        position: relative;
+        bottom: 75px;
+        left: 0px;
+    }
+    .sectionIndex{
+        row-gap: 3rem
+    }
+    .imagenTurismo{
+        height: 10rem; 
+    }
+    .mapaTurismo{
+        height: 10rem;
+    }
+}
