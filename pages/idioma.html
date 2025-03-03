@@ -12,27 +12,27 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
 <body class="cuerpo">
-    <header>
-        <nav class="navbar navbar-expand-lg cabecera">
-            <div class="container-fluid contanier-sm cabecera flex-sm-row-reverse">
-              <a class="navbar-brand" href="../index.html"><img src="../assets/img/casa-japonesa.png" alt=""></a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+  <header>
+    <nav class="navbar navbar-expand-lg cabecera">
+        <div class="container-fluid contanier-sm cabecera">
+            <a class="navbar-brand" href="../index.html"><img src="../assets/img/casa-japonesa.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="d-flex justify-content-center">
+            </button>
+            <div class="d-flex justify-content-center">
                 <img src="../assets/img/logo.png" alt="Logo" class="logo">
-              </div>
-              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                  <a class="nav-link" href="../pages/turismo.html">Turismo</a>
-                  <a class="nav-link" href="../pages/comidas.html">Comidas</a>
-                  <a class="nav-link" href="../pages/mundootaku.html">Mundo Otaku</a>
-                  <a class="nav-link" href="../pages/idioma.html">Idioma</a>
-                </div>
-              </div>
             </div>
-          </nav>      
-    </header>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link" href="../pages/turismo.html">Turismo</a>
+                    <a class="nav-link" href="../pages/comidas.html">Comidas</a>
+                    <a class="nav-link" href="../pages/mundootaku.html">Mundo Otaku</a>
+                    <a class="nav-link" href="../pages/idioma.html">Idioma</a>
+                </div>
+            </div>
+        </div>
+      </nav>
+</header> 
     <main>
         <section class="row">
             <h1 class="col-12 d-flex justify-content-center">Idioma</h1>
@@ -41,14 +41,14 @@
             <p>El primero está compuesto por los ideogramas chinos, o kanji, introducidos en Japón alrededor del siglo IV. Estos se utilizan como ideogramas y fonogramas. Cada kanji tiene diversas lecturas, tanto nativas como de raíz china.</p>
             <p>El segundo sistema es llamado kana y fue desarrollado unos 500 años después del kanji. Pertenecen al kana dos formas de escritura que son silabarios propios, el hiragana y el katakana. El primero, sirve para escribir todas las demás palabras de origen japonés o a falta de kanji y, cuando estos están presentes, se emplea para indicar las desinencias. El segundo, se usa para escribir interjecciones, onomatopeyas y préstamos de entrada reciente a la lengua, tiene su origen en los inicios de la era Heian, teniendo como primer uso el ser una ayuda en la lectura de los caracteres de los sutras, los escritos budistas, siendo en su tiempo, más popular que el Hiragana, no volviéndose este otro de uso común hasta después de la guerra.</p>
         </section>
-        <section class="d-flex justify-content-around mb-3">
-            <div>
-                <h2>Katakana</h2>
-                <img src="../assets/img/Katakana.jpg" alt="Silabario Katakana">
+        <section class="d-flex justify-content-around mb-3 row mx-5">
+            <div class="col-lg-6 col-sm-12">
+                <h2 class="nombreSilabario">Katakana</h2>
+                <img class="silabarios" src="../assets/img/Katakana.jpg" alt="Silabario Katakana">
             </div>
-            <div>
-                <h2>Hiragana</h2>
-                <img src="../assets/img/Haragana.jpg" alt="Silabario Hiragana">
+            <div class="col-lg-6 col-sm-12">
+                <h2 class="nombreSilabario">Hiragana</h2>
+                <img class="silabarios" src="../assets/img/Haragana.jpg" alt="Silabario Hiragana">
             </div>
         </section>
     </main>
