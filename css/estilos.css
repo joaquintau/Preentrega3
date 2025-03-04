@@ -1,0 +1,229 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.cuerpo {
+  background-color: #e7dfb8;
+  overflow-x: hidden;
+}
+
+.cabecera {
+  background-color: #eb7a8d;
+}
+.cabecera div a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-family: "Varela Round", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.cabecera .logo {
+  width: 8%;
+  margin-left: 42%;
+}
+
+h1 {
+  font-family: "IBM Plex Mono", serif;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 200%;
+}
+
+h2 {
+  font-family: "IBM Plex Mono", serif;
+  font-weight: 600;
+  font-style: italic;
+  font-size: 150%;
+}
+
+p {
+  font-family: "Varela Round", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h3 {
+  font-family: "IBM Plex Mono", serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+li {
+  font-family: "Varela Round", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.imagenIndex {
+  width: 500px;
+}
+
+.sitiosTuristicos {
+  background-color: #f3e9bd;
+  width: 50%;
+}
+
+.menu {
+  height: 100vh;
+  display: flex;
+  width: 31vh;
+  position: relative;
+}
+.menu div {
+  background-color: #7295B4;
+}
+.menu div ul li {
+  background-color: #7295B4;
+}
+.menu div ul li a {
+  text-decoration: solid;
+  color: black;
+}
+
+.sitiosOtakus {
+  width: 600px;
+  height: 25rem;
+}
+
+footer {
+  background-color: #7295B4;
+}
+footer .redes {
+  width: 5.5vh;
+}
+
+@media (max-width: 576px) {
+  .logo {
+    margin-right: 45%;
+    width: 15% !important;
+  }
+  .sectionIndex {
+    row-gap: 2rem;
+  }
+  .cabecera {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .menu {
+    display: none;
+  }
+  .tituloComidas {
+    display: flex;
+    justify-content: center;
+    margin-left: 23%;
+  }
+  .subtituloComidas {
+    display: flex;
+    justify-content: center;
+    margin-left: 10%;
+  }
+  .ingredientes {
+    display: flex;
+    justify-content: center;
+    margin-left: 11%;
+  }
+  .listaIngredientes {
+    position: relative;
+    left: 35%;
+  }
+  main {
+    overflow-x: hidden;
+  }
+  footer {
+    overflow-x: hidden;
+  }
+  header {
+    overflow-x: hidden;
+  }
+  .videoComidas {
+    margin-left: 25%;
+    margin-bottom: 5%;
+  }
+  .mainOtaku {
+    display: flex;
+    flex-direction: column;
+  }
+  .sectionOtaku {
+    order: 2;
+  }
+  #carouselExample {
+    margin: auto;
+    order: 1;
+    width: 60% !important;
+  }
+  .sitiosOtakus {
+    height: 55%;
+  }
+  .mapaOtaku {
+    height: 55%;
+  }
+  .silabarios {
+    width: 75%;
+    margin-left: 10%;
+  }
+  .nombreSilabario {
+    margin-left: 35%;
+  }
+}
+@media (max-width: 768px) {
+  .logo {
+    width: 14%;
+    margin-top: -10%;
+    margin-left: -1%;
+  }
+  .sectionIndex {
+    row-gap: 3rem;
+  }
+  .imagenTurismo {
+    height: 10rem;
+  }
+  .mapaTurismo {
+    height: 10rem;
+  }
+  .sectionIndex {
+    row-gap: 2rem;
+  }
+  .cabecera {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .menu {
+    display: none;
+  }
+  .tituloComidas {
+    display: flex;
+    justify-content: center;
+    margin-left: 23%;
+  }
+  .subtituloComidas {
+    display: flex;
+    justify-content: center;
+    margin-left: 10%;
+  }
+  .ingredientes {
+    display: flex;
+    justify-content: center;
+    margin-left: 11%;
+  }
+  .listaIngredientes {
+    position: relative;
+    left: 35%;
+  }
+  main {
+    overflow-x: hidden;
+  }
+  footer {
+    overflow-x: hidden;
+  }
+  header {
+    overflow-x: hidden;
+  }
+  .videoComidas {
+    margin-left: 25%;
+    margin-bottom: 5%;
+  }
+}
+
+/*# sourceMappingURL=estilos.css.map */

@@ -1,0 +1,132 @@
+@media (max-width: 576px){
+    .logo{
+            margin-right: 45%;
+            width: 15% !important;
+            }
+    .sectionIndex{
+        row-gap: 2rem;
+    }
+    .cabecera{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .menu{
+        display: none;
+    }
+    .tituloComidas{
+        display: flex;
+        justify-content: center;
+        margin-left: 23%;
+    }
+    .subtituloComidas{
+        display: flex;
+        justify-content: center;
+        margin-left: 10%;;
+    }
+    .ingredientes{
+        display: flex;
+        justify-content: center;
+        margin-left: 11%;
+    }
+    .listaIngredientes{
+        position: relative;
+        left: 35%;
+    }
+    main{
+        overflow-x: hidden;
+    }
+    footer{
+        overflow-x: hidden;
+    }
+    header{
+        overflow-x: hidden;
+    }
+    .videoComidas{
+        margin-left: 25%;
+        margin-bottom: 5%;
+    }
+    .mainOtaku{
+        display: flex;
+        flex-direction: column;
+    }
+    .sectionOtaku{
+        order: 2;
+    }
+    #carouselExample { 
+        margin: auto;
+        order: 1;
+        width: 60% !important;
+    }
+    .sitiosOtakus{
+        height: 55%;
+    }
+    .mapaOtaku{
+        height: 55%;
+    }
+        .silabarios{
+            width: 75%;
+            margin-left: 10%;
+    }
+    .nombreSilabario{
+        margin-left: 35%;
+    }
+
+}
+@media (max-width: 768px){
+    .logo{
+        width: 14%;
+        margin-top: -10%;
+        margin-left: -1%;
+    }
+    .sectionIndex{
+        row-gap: 3rem
+    }
+    .imagenTurismo{
+        height: 10rem;
+    }
+    .mapaTurismo{
+        height: 10rem;
+    }
+    .sectionIndex{
+        row-gap: 2rem;
+    }
+    .cabecera{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .menu{
+        display: none;
+    }
+    .tituloComidas{
+        display: flex;
+        justify-content: center;
+        margin-left: 23%;
+    }
+    .subtituloComidas{
+        display: flex;
+        justify-content: center;
+        margin-left: 10%;;
+    }
+    .ingredientes{
+        display: flex;
+        justify-content: center;
+        margin-left: 11%;
+    }
+    .listaIngredientes{
+        position: relative;
+        left: 35%;
+    }
+    main{
+        overflow-x: hidden;
+    }
+    footer{
+        overflow-x: hidden;
+    }
+    header{
+        overflow-x: hidden;
+    }
+    .videoComidas{
+        margin-left: 25%;
+        margin-bottom: 5%;
+    }
+}
