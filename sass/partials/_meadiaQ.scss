@@ -21,7 +21,8 @@
     .subtituloComidas{
         display: flex;
         justify-content: center;
-        margin-left: 10%;;
+        margin-left: 10%;
+
     }
     .ingredientes{
         display: flex;
@@ -30,10 +31,9 @@
     }
     .listaIngredientes{
         position: relative;
-        left: 35%;
-    }
-    main{
-        overflow-x: hidden;
+        left: 0;
+        width: 100%;
+
     }
     footer{
         overflow-x: hidden;
@@ -114,19 +114,32 @@
     }
     .listaIngredientes{
         position: relative;
-        left: 35%;
+        left: 20%;
+
+        li{
+            display: inline-block;
+            box-sizing: border-box;
+        }
     }
-    main{
-        overflow-x: hidden;
-    }
-    footer{
-        overflow-x: hidden;
+    main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        min-height: 100vh;
+        padding: 20px;
+        box-sizing: border-box;
+        section {
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+          }
     }
     header{
         overflow-x: hidden;
     }
     .videoComidas{
-        margin-left: 25%;
+        margin-left: 14%;
         margin-bottom: 5%;
     }
 }
