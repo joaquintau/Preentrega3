@@ -1,0 +1,19 @@
+.asideWpp{
+    position:fixed;
+    left: 1750px;
+    top: 80vh;
+    animation-name: rotacion;
+    animation-duration: 70s;
+    animation-iteration-count: infinite;
+    animation-delay: 0;
+    border: 7px solid #B6FFA1;
+    border-radius: 50%;
+}
+@keyframes rotacion{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(3600deg);
+    }
+}

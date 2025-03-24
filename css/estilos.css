@@ -87,6 +87,26 @@ li {
   height: 25rem;
 }
 
+.asideWpp {
+  position: fixed;
+  left: 1750px;
+  top: 80vh;
+  animation-name: rotacion;
+  animation-duration: 70s;
+  animation-iteration-count: infinite;
+  animation-delay: 0;
+  border: 7px solid #B6FFA1;
+  border-radius: 50%;
+}
+
+@keyframes rotacion {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(3600deg);
+  }
+}
 footer {
   background-color: #7295B4;
 }
@@ -164,12 +184,33 @@ footer .redes {
   .nombreSilabario {
     margin-left: 35%;
   }
+  .asideWpp {
+    position: fixed;
+    animation-name: rotacion;
+    animation-duration: 70s;
+    animation-iteration-count: infinite;
+    animation-delay: 0;
+    left: 80%;
+    top: 8%;
+  }
+  .asideWpp img {
+    border: 7px solid #B6FFA1;
+    border-radius: 50%;
+  }
+  @keyframes rotacion {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(3600deg);
+    }
+  }
 }
 @media (max-width: 768px) {
   .logo {
-    width: 14%;
+    margin-right: 45%;
+    width: 12% !important;
     margin-top: -10%;
-    margin-left: -1%;
   }
   .sectionIndex {
     row-gap: 3rem;
@@ -233,6 +274,52 @@ footer .redes {
   .videoComidas {
     margin-left: 14%;
     margin-bottom: 5%;
+  }
+  .mainOtaku {
+    display: flex;
+    flex-direction: column;
+  }
+  .sectionOtaku {
+    order: 2;
+  }
+  #carouselExample {
+    margin: auto;
+    order: 1;
+    width: 60% !important;
+  }
+  .sitiosOtakus {
+    height: 55%;
+  }
+  .mapaOtaku {
+    height: 55%;
+  }
+  .silabarios {
+    width: 75%;
+    margin-left: 10%;
+  }
+  .nombreSilabario {
+    margin-left: 35%;
+  }
+  .asideWpp {
+    position: fixed;
+    animation-name: rotacion;
+    animation-duration: 70s;
+    animation-iteration-count: infinite;
+    animation-delay: 0;
+    left: 80%;
+    top: 85%;
+  }
+  .asideWpp img {
+    border: 7px solid #B6FFA1;
+    border-radius: 50%;
+  }
+  @keyframes rotacion {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(3600deg);
+    }
   }
 }
 
